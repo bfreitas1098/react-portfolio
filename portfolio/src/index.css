@@ -3,4 +3,8 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #222831;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  overflow-x: hidden;
 }
