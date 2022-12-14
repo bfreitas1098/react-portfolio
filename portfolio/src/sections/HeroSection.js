@@ -31,7 +31,9 @@ const HeroSection = () => {
             src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/057/429/original/portrait.png?1670616734"
             alt="portrait"
           />
-          <Icons />
+          <div id="hero-icons" className="flex">
+            <Icons />
+          </div>
         </div>
       </div>
     </div>

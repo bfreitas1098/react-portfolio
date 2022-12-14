@@ -1,0 +1,25 @@
+.frames {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 1.25rem;
+  row-gap: 1.25rem;
+  background-color: var(--primary-color-neutral);
+  border-radius: var(--border-radius);
+  margin: 3.125rem 0 0 var(--left-margin);
+  padding: 1.75rem;
+  width: 71.063rem;
+}
+
+.frames div,
+.frames div img {
+  border-radius: var(--border-radius);
+  width: 22rem;
+  height: 14rem;
+  margin: 0;
+  transition: all ease-in-out 150ms;
+}
+
+.frames div img {
+  margin-left: 6px;
+}

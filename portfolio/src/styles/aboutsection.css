@@ -3,16 +3,19 @@
   height: 95rem;
 }
 
-h3 {
-  font-size: 2rem;
-  line-height: 111%;
-  color: var(--primary-color-light);
+.about-section h3:first-child,
+.about-section h3:last-child,
+.about-section p {
+  position: absolute;
+}
+
+.about-section h3:first-child,
+.about-section h3:last-child {
+  margin-left: var(--left-margin);
 }
 
 .about-section h3:first-child {
-  position: absolute;
   top: 60rem;
-  margin-left: var(--left-margin);
 }
 
 p {
@@ -23,12 +26,9 @@ p {
 }
 
 .about-section p {
-  position: absolute;
   top: 70rem;
 }
 
 .about-section h3:last-child {
-  position: absolute;
   top: 100rem;
-  margin-left: var(--left-margin);
 }
