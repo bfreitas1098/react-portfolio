@@ -1,0 +1,55 @@
+.skills {
+  position: absolute;
+  margin-left: var(--left-margin);
+  top: 110rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 1.25rem;
+  grid-row-gap: 1.56rem;
+  width: 71.063rem;
+}
+
+.skills div {
+  background-color: var(--primary-color-dark);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color-light);
+  padding: 1.375rem 5.625rem;
+  gap: 0.94rem;
+  border-radius: var(--border-radius);
+}
+
+.icon {
+  font-size: 3.75rem;
+  color: var(--secondary-color-neutral);
+}
+
+.skills .subtitle {
+  font-size: 1.75rem;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.div4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.div5 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.div6 {
+  grid-area: 2 / 3 / 3 / 4;
+}

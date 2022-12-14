@@ -1,4 +1,5 @@
 import "./App.css";
+import Skills from "./components/skills";
 import AboutSection from "./sections/AboutSection";
 import HeroSection from "./sections/HeroSection";
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <HeroSection />
       <AboutSection />
+      <Skills />
     </div>
   );
 }
