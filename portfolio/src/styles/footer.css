@@ -25,4 +25,9 @@ span {
 
 #footer-icons .icons a {
   color: var(--primary-color-neutral);
+  transition: color ease-in-out 50ms;
+}
+
+#footer-icons .icons a:hover {
+  color: var(--primary-color-light);
 }
