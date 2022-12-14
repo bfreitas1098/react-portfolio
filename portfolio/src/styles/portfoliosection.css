@@ -7,17 +7,18 @@
   top: 153.8rem;
   left: 67rem;
   text-decoration: none;
-  color: var(--secondary-color-dark);
 }
 
 #resume span {
   font-weight: 600;
   font-size: 1.56rem;
   margin-right: 0.8rem;
+  color: var(--secondary-color-dark);
 }
 
 #icon {
   font-size: 1.5rem;
+  color: var(--secondary-color-dark);
 }
 
 h4 {

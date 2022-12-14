@@ -4,6 +4,7 @@ import { faFile } from "@fortawesome/free-solid-svg-icons";
 import Frames from "../components/frames";
 
 import "../styles/portfoliosection.css";
+import Designs from "../components/designs";
 
 const PortfolioSection = () => {
   return (
@@ -19,6 +20,7 @@ const PortfolioSection = () => {
       <Frames />
       <h4 id="figma">Figma Files</h4>
       <Frames />
+      <Designs />
     </div>
   );
 };
