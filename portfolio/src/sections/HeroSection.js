@@ -55,7 +55,7 @@ const Wrapper = styled.div``;
 
 const Headings = styled.div`
   color: var(--primary-color-light);
-  margin: 9.375rem 0 9.375rem var(--left-margin);
+  margin: 9.375rem 0 7rem var(--left-margin);
   flex-direction: column;
 `;
 

@@ -1,0 +1,15 @@
+.designs img {
+  position: absolute;
+  z-index: -1;
+}
+
+#design1 {
+  top: 145rem;
+  height: 45rem;
+}
+
+#design2 {
+  left: 77rem;
+  top: 220rem;
+  height: 40rem;
+}
